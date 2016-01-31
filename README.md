@@ -11,6 +11,7 @@ Since surfaces are a base feature of GameMaker:Studio, this engine should be sup
  * Note that static lights will not render any shadow casters that were added after the light was created
 3. Render the system in the `draw_end` event of an object using `light_system_draw(ambiant_light_color)`
  * It is also possible to render the system using additive mode using `light_system_draw_add(ambiant_light_color)`
+4. Draw your game as you normally would
 
 ### Contributing
 
