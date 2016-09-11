@@ -73,7 +73,7 @@ fire = light_static_add(spr_pointlight, 0, x, y, 0.5, 0.5, 0, make_color_hsv(25,
 // THE CHARCOAL GLOW //
 fireglow = light_static_add(spr_firepit, 1, x, y, 1, 1, image_angle, c_white, 0);
 // A DYNAMIC LIGHT THAT FOLLOWS THE MOUSE //
-dynalight = light_dynamic_add(spr_pointlight, 0, room_width * 0.5, room_height * 0.5, 1, 1, 0, make_color_hsv(25, 64, 255), SHADOWS.STATIC + SHADOWS.DYNAMIC, 0);
+dynalight = light_dynamic_add(spr_pointlight, 0, room_width * 0.5, room_height * 0.5, 1, 1, 0, make_color_hsv(25, 64, 128), SHADOWS.STATIC + SHADOWS.DYNAMIC, 0);
 </string>
           </argument>
         </arguments>

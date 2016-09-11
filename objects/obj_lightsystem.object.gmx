@@ -77,7 +77,7 @@ if(instance_number(object_index) &gt; 1) {
           <argument>
             <kind>1</kind>
             <string>// DRAW THE WHOLE SYSTEM (THE ARGUMENT IS THE AMBIANT LIGHT) //
-light_system_draw(c_dkgray);
+light_system_draw(0);
 </string>
           </argument>
         </arguments>
