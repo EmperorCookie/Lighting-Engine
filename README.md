@@ -6,7 +6,7 @@ Since surfaces are a base feature of GameMaker:Studio, this engine should be sup
 
 ### Using the engine
 
-1. [Download the extension](https://github.com/EmperorCookie/Lighting-Engine/blob/develop/extensions/LightSystem_v0_3_5.gmez) and import everything in your project
+1. [Download the extension](https://github.com/EmperorCookie/Lighting-Engine/releases) and import everything in your project
 2. Call `light_system_init()` before anything else
 3. Add shadow casters and light
  * Note that static lights will not render any shadow casters that were added after the light was created
