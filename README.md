@@ -4,6 +4,10 @@ Lighting Engine is a surface based lighting engine that uses sprite lights and s
 
 Since surfaces are a base feature of GameMaker:Studio, this engine should be supported on every target.
 
+### Download
+
+https://github.com/EmperorCookie/Lighting-Engine/blob/develop/extensions/LightSystem_v0_3_5.gmez
+
 ### Using the engine
 
 1. Call `light_system_init()` before anything else
