@@ -4,18 +4,15 @@ Lighting Engine is a surface based lighting engine that uses sprite lights and s
 
 Since surfaces are a base feature of GameMaker:Studio, this engine should be supported on every target.
 
-### Download
-
-https://github.com/EmperorCookie/Lighting-Engine/blob/develop/extensions/LightSystem_v0_3_5.gmez
-
 ### Using the engine
 
-1. Call `light_system_init()` before anything else
-2. Add shadow casters and light
+1. [Download the extension](https://github.com/EmperorCookie/Lighting-Engine/blob/develop/extensions/LightSystem_v0_3_5.gmez) and import everything in your project
+2. Call `light_system_init()` before anything else
+3. Add shadow casters and light
  * Note that static lights will not render any shadow casters that were added after the light was created
-3. Render the system in the `draw_end` event of an object using `light_system_draw(ambiant_light_color)`
+4. Render the system in the `draw_end` event of an object using `light_system_draw(ambiant_light_color)`
  * It is also possible to render the system using additive mode using `light_system_draw_add(ambiant_light_color)`
-4. Draw your game as you normally would
+5. Draw your game as you normally would
 
 ### Contributing
 
